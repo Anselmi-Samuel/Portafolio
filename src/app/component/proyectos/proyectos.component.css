@@ -1,0 +1,32 @@
+/* Proyectos*/
+
+.proyecto-container{
+    padding-top: 110px;
+    padding-bottom: 110px;
+}
+
+.text-proyecto{
+    font-family: "Comfortaa", cursive;
+    font-weight: 500;
+}
+
+.bar-decoration{
+    width: 17%;
+    height: 3px;
+    background-color: #3078E8;
+}
+
+.card-title{
+    font-family: "Comfortaa", cursive;
+    font-weight: 600;
+}
+
+.card-text{
+    font-family: "Comfortaa", cursive;
+}
+
+.btn{
+    font-family: "Comfortaa", cursive;
+    font-size: 15px;
+    padding: 5px;
+}

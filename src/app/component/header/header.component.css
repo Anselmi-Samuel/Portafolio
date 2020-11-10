@@ -1,0 +1,46 @@
+/*Navbar*/
+
+.navbar-container{
+    top: 0;
+    z-index: 999;
+    padding: 10px 0px;
+    background-color: #232323;
+    box-shadow: -5px 5px 18px -6px rgba(0,0,0,1);
+}
+
+@media(max-width: 600px){
+    .navbar-container{
+        padding: 10px 15px;
+    }
+}
+
+.logo{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 30px;
+    font-weight: 100;
+    color: #2989F5 !important;
+}
+
+.navbar-toggler{
+    outline: none !important;
+}
+
+.fa-bars{
+    color: #2989F5;
+}
+
+.nav-link{
+    color: #fff !important;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Comfortaa", cursive;
+    letter-spacing: .1px;
+    padding: 2px 10px !important;
+    display: inline !important;
+    transition: .3s ease-in-out !important;
+}
+
+.nav-link:hover{
+    color: #2989F5 !important;
+    border-bottom: solid 2px #2989F5 !important;
+}

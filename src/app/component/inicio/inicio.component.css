@@ -1,0 +1,44 @@
+.hero{
+    background-image: url(https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-position: center;
+    background-size: cover;
+}
+
+.hero-filter{
+    background-color: rgba(0,0,0,.6);
+    padding-top: 180px;
+    padding-bottom: 200px;
+}
+
+.hero-title{
+    font-family: "Comfortaa", cursive;
+    color: #fff;
+}
+
+.hero-subtitle{
+    font-family: "Comfortaa", cursive;
+    color: #70757A;
+}
+
+@media(max-width: 400px){
+    .hero-title{
+        font-size: 30px;
+    }
+}
+
+.hero-btn-group{
+    font-family: "Comfortaa", cursive;
+    margin-top: 30px;
+}
+
+.hero-btn-group .btn{
+    color: #fff;
+    background-color: #3078E8;
+    border: none;
+    font-weight: 500;
+    transition: .3s ease-in-out;
+}
+
+.hero-btn-group .btn:hover{
+    background-color:  #2989F5;
+}

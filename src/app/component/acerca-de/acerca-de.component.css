@@ -1,0 +1,73 @@
+/*Acerca de*/
+
+.container-acerca{
+    padding-top: 120px;
+    padding-bottom: 50px;
+}
+
+.acerca-img{
+    height: 400px;
+}
+
+.acerca-subtitle{
+    font-family: "Comfortaa", cursive;
+    color:  #2989F5;
+}
+
+.bar-decoration{
+    width: 25%;
+    height: 3px;
+    background-color: #3078E8;
+}
+
+.acerca-text{
+    font-family: "Comfortaa", cursive;
+    color:  #565656;
+}
+
+.acerca-contactos{
+    padding: 20px 0px;
+    border: solid 1px #232323;
+    background-color: #232323;
+}
+
+.acerca-credenciales{
+    font-family: "Comfortaa", cursive;
+    color:  #fff;
+}
+
+.credenciales{
+    font-family: "Comfortaa", cursive;
+    color: #2989F5;
+    font-size: 14.2px;
+}
+
+@media(max-width: 360px){
+    .acerca-text{
+        font-size: 15px;
+    }
+
+    .credenciales{
+        font-size: 13px;
+    }
+
+    .btn{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.btn{
+    color: #fff;
+    background-color: #3078E8;
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: "Comfortaa", cursive;
+    transition: .3s ease-in-out;
+}
+
+.btn:hover{
+    background-color:  #2989F5;
+}
